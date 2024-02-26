@@ -1,3 +1,39 @@
+/*----- constants -----*/
+const keyboardDiv = document.querySelector(".keyboard")
+
+/*----- state variables -----*/
+
+
+/*----- cached elements  -----*/
+
+
+/*----- event listeners -----*/
+// creating keyboard buttons on page
+for (let i = 97; i < 122; i++) {
+    const button = document.createElement("button")
+    button.innerText = String.fromCharCode(i)
+    keyboardDiv.appendChild(button)
+} 
+
+
+/*----- functions -----*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // # Spaceman Game Pseudo-Code
 
 // # Step 1: Initialize the Game

@@ -105,4 +105,16 @@ body {
     background: gray;
 }
 
-@media (max-width: 782px)
+@media (max-width: 782px) {
+    .container {
+        flex-direction: column;
+        padding: 30px 15px;
+        align-items: center;
+    }
+    .spaceman-box img {
+        max-width: 200px;
+    }
+    .spaceman-box h1 {
+        display: none;
+    }
+}
