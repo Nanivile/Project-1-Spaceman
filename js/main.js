@@ -2,15 +2,11 @@
 const keyboardDiv = document.querySelector(".keyboard")
 
 const getRandomWord = () => {
-
+    // selecting a random word and hint from the worldList
+    const { word, hint } = wordList[Math.floor(Math.random() * wordList.length)]
+    console.log(word, hint)
 }
 
-const wordList = [
-    {
-        word: "Banana",
-        hint: "A yellow fruit."
-    }
-]
 /*----- state variables -----*/
 
 
@@ -29,7 +25,7 @@ for (let i = 97; i < 122; i++) {
 /*----- functions -----*/
 
 
-
+getRandomWord()
 
 
 
