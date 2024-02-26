@@ -1,6 +1,16 @@
 /*----- constants -----*/
 const keyboardDiv = document.querySelector(".keyboard")
 
+const getRandomWord = () => {
+
+}
+
+const wordList = [
+    {
+        word: "Banana",
+        hint: "A yellow fruit."
+    }
+]
 /*----- state variables -----*/
 
 
