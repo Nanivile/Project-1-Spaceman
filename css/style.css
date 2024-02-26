@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: black;
+    /* background-image: url('pics/space_background-pic.webp'); */
+
+}
+
+.container {
+    width: 850px;
+    background: white;
+    display: flex;
+    gap: 70px;
+    align-items: flex-end;
+    padding: 60px 40px;
+    border-radius: 10px;
+}
+
+.spaceman-box img {
+    max-width: 270px;
+}
+
+.spaceman-box h1 {
+    font-size: 1.45rem;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.word-display {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+.word-display .letter {
+    width: 28px;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    border-bottom: 3px solid black;
+
+}
+
+.word-display .letter.guessed {
+   border-color: transparent;
+   margin: -40px 0 35px; 
+}
+
+.game-box h4 {
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.game-box h4 p {
+    font-weight: 600;
+}
+
+.game-box .guesses-text p {
+    color: red;
+}
+
+.game-box .keyboard {
+    display: flex;
+    gap: 5px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.keyboard button {
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+    padding: 7px;
+    border: none;
+    background: black;
+    border-radius: 4px;
+    text-transform: uppercase;
+    width: 40px;
+}
+
+.keyboard button:hover {
+    background: gray;
+}
