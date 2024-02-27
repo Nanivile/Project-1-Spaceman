@@ -3,11 +3,11 @@ const wordDisplay = document.querySelector(".word-display")
 const keyboardDiv = document.querySelector(".keyboard")
 
 const getRandomWord = () => {
-    // selecting a random word and hint from the wordList
+    // selecting a random word and hint from the worldList
     const { word, hint } = wordList[Math.floor(Math.random() * wordList.length)]
     console.log(word)
     document.querySelector(".hint-text p").innerHTML = hint
-    wordDisplay.innerHTML = word.split('').map(() => `<li class="letter"></li>`).join("")
+    
 }
 
 /*----- state variables -----*/
@@ -18,7 +18,7 @@ const getRandomWord = () => {
 
 /*----- event listeners -----*/
 // creating keyboard buttons on page
-for (let i = 97; i < 122; i++) {
+for (let i = 97; i <= 122; i++) {
     const button = document.createElement("button")
     button.innerText = String.fromCharCode(i)
     keyboardDiv.appendChild(button)

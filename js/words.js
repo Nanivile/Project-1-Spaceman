@@ -37,7 +37,7 @@ const wordList = [
     },
     {
         word: "Irritating",
-        hint: "SOmething causing displeasure, anger, or annoyance."
+        hint: "Something causing displeasure, anger, or annoyance."
     }, 
     {
         word: "Cave",
