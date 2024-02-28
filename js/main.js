@@ -19,8 +19,13 @@ const getRandomWord = () => {
 }
 
 const gameOver = (isVictory) => {
+    // After some time after game is complete, show modal with relevant details
     setTimeout(() => {
-        gameModal.classList.add("show")
+        const modalText = isVictory ? `You found the word:` : `The correct word was:`
+        gameModal.querySelector("img").src = `pics/${isVictory ? 'victory' : 'lost'}.jpeg`
+        gameModal.querySelector("h4").innerText = `${isVictory ? 'Earth is saved!' : 'Game over!'}`
+        gameModal.querySelector("p").innerHTML = `${modalText} <b>${currentWord}</b>`
+        gameModal.classList.add("show") 
     }, 300)
 }
 
