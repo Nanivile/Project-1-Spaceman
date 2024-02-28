@@ -16,7 +16,11 @@ const getRandomWord = () => {
     
 }
 
+const gameOver = (isVictory) => {
+    setTimeout(() => {
 
+    }, 300)
+}
 
 
 const initGame = (button, clickedLetter) => {
