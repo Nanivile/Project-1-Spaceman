@@ -4,9 +4,21 @@ const wordDisplay = document.querySelector(".word-display")
 const guessesText = document.querySelector(".guesses-text p")
 const keyboardDiv = document.querySelector(".keyboard")
 const gameModal = document.querySelector(".game-modal")
+const playAgainBtn = document.querySelector(".play-again")
 
-let currentWord, correctLetters =[], wrongGuessCount = 0
+let currentWord, correctLetters, wrongGuessCount
 const maxGuesses = 6
+
+const resetGame = () => {
+    // Resetting all game variables and UI elements
+    correctLetters =[]
+    wrongGuessCount = 0
+    spacemanImage.src = `pics/spaceman-${wrongGuessCount}.jpeg`
+    guessesText.innerText = `${wrongGuessCount} / ${maxGuesses}`
+    keyboardDiv.querySelectorAll("button").forEach(btn => btn.disabled = false)
+    wordDisplay.innerHTML = currentWord.split("").map(() => `<li class="letter"></li>`).join("")
+    gameModal.classList.remove("show")
+}
 
 const getRandomWord = () => {
     // selecting a random word and hint from the worldList
@@ -14,7 +26,7 @@ const getRandomWord = () => {
     currentWord = word
     console.log(word)
     document.querySelector(".hint-text p").innerHTML = hint
-    wordDisplay.innerHTML = word.split("").map(() => `<li class="letter"></li>`).join("")
+    resetGame()
     
 }
 
@@ -23,7 +35,7 @@ const gameOver = (isVictory) => {
     setTimeout(() => {
         const modalText = isVictory ? `You found the word:` : `The correct word was:`
         gameModal.querySelector("img").src = `pics/${isVictory ? 'victory' : 'lost'}.jpeg`
-        gameModal.querySelector("h4").innerText = `${isVictory ? 'Earth is saved!' : 'Game over!'}`
+        gameModal.querySelector("h4").innerText = `${isVictory ? 'Earth is saved!' : 'Earth is destroyed!'}`
         gameModal.querySelector("p").innerHTML = `${modalText} <b>${currentWord}</b>`
         gameModal.classList.add("show") 
     }, 300)
@@ -77,6 +89,7 @@ for (let i = 97; i <= 122; i++) {
 
 
 getRandomWord()
+playAgainBtn.addEventListener("click", getRandomWord)
 
 
 
