@@ -1,10 +1,11 @@
 /*----- constants -----*/
+const spacemanImage = document.querySelector(".spaceman-box .img")
 const wordDisplay = document.querySelector(".word-display")
 const guessesText = document.querySelector(".guesses-text p")
 const keyboardDiv = document.querySelector(".keyboard")
 
 let currentWord, correctLetters =[], wrongGuessCount = 0
-const maxGuesses = 5
+const maxGuesses = 6
 
 const getRandomWord = () => {
     // selecting a random word and hint from the worldList
