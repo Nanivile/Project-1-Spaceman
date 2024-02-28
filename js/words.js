@@ -1,82 +1,82 @@
 const wordList = [
     {
-        word: "Banana",
+        word: "banana",
         hint: "A yellow fruit.",
     },
     {
-        word: "Apple",
+        word: "apple",
         hint: "A red fruit."
     }, 
     {
-        word: "Past",
+        word: "past",
         hint: "An event that already happened.",
     },
     {
-        word: "Bone",
+        word: "bone",
         hint: "Part of our body that protect vital organs."
     }, 
     {
-        word: "Delirious",
+        word: "delirious",
         hint: "Unable to think or speak clearly due to a disturbed state of mind.",
     },
     {
-        word: "Moon",
+        word: "moon",
         hint: "Light in the night sky."
     }, 
     {
-        word: "Guard",
+        word: "guard",
         hint: "Protect or defend.",
     },
     {
-        word: "Curvy",
+        word: "curvy",
         hint: "Having a body with rounded parts, more defined on women."
     }, 
     {
-        word: "Humor",
+        word: "humor",
         hint: "Being able to find things funny.",
     },
     {
-        word: "Irritating",
+        word: "irritating",
         hint: "Something causing displeasure, anger, or annoyance."
     }, 
     {
-        word: "Cave",
+        word: "cave",
         hint: "A dark place where bat-man lives.",
     },
     {
-        word: "Crayon",
+        word: "crayon",
         hint: "Sticks kids use to color."
     }, 
     {
-        word: "Acute",
+        word: "acute",
         hint: "An angle less than 90 degrees.",
     },
     {
-        word: "Songs",
+        word: "songs",
         hint: "Music with an 's' at the end."
     }, 
     {
-        word: "Activity",
+        word: "activity",
         hint: "Things that a person or group does or has done.",
     },
     {
-        word: "Precede",
+        word: "precede",
         hint: "Go ahead or in front of something."
     }, 
     {
-        word: "Versed",
+        word: "versed",
         hint: "Being experienced on something.",
     },
     {
-        word: "Futuristic",
+        word: "futuristic",
         hint: "Intended or seeming to come from some imagined time in the future."
     }, 
     {
-        word: "Equal",
+        word: "equal",
         hint: "Being the same.",
     },
     {
-        word: "Wetly",
+        word: "wetly",
         hint: "In a way that is wet or unpleasant."
     }, 
     

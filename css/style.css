@@ -102,6 +102,11 @@ body {
     width: 40px;
 }
 
+.keyboard button[disabled] {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
 .keyboard button:hover {
     background: gray;
 }
