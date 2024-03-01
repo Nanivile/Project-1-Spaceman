@@ -1,12 +1,15 @@
-# Spaceman!!
-Spaceman is a game where you have to save the earth but guessing from a list of words aliens have given you. if you guess correctly thw Earth is saved but if yuo run out of guesses the Earth is destroyed.
+# SpaceMan
+![Spaceman home page](https://i.imgur.com/wKFx9yP.png)
+## Date 03/01/2024
+### By: Ifeanyi Njoku
+### |[Linkenin](https://www.linkedin.com/in/ifeanyi-njoku-4a6888188/) | [Github](https://github.com/Nanivile)
+***
 
 # Screenshot
 
-img src="https://i.imgur.com/wKFx9yP.png
-img src="https://i.imgur.com/UFGW62c.png
-img src="https://i.imgur.com/zMCXBGJ.png
-img src="https://i.imgur.com/blF1cMu.png
+![Spaceman game](https://i.imgur.com/UFGW62c.png)
+![spaceman lose](https://i.imgur.com/zMCXBGJ.png)
+![Spaceman win](https://i.imgur.com/blF1cMu.png)
 
 
 # Technologies Used
