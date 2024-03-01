@@ -2,7 +2,10 @@
 ![Spaceman home page](https://i.imgur.com/wKFx9yP.png)
 ## Date 03/01/2024
 ### By: Ifeanyi Njoku
-### |[Linkenin](https://www.linkedin.com/in/ifeanyi-njoku-4a6888188/) | [Github](https://github.com/Nanivile)
+### |[Linkenin](https://www.linkedin.com/in/ifeanyi-njoku-9n/) | [Github](https://github.com/Nanivile)
+***
+## ***Description***
+#### Spaceman is a game in which the object is for one player to guess the letters of an unknown word before the player who knows the word sends a planet destroying laser for each incorrect guess.
 ***
 
 # Screenshot
