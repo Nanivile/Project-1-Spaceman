@@ -3,10 +3,10 @@ Spaceman is a game where you have to save the earth but guessing from a list of 
 
 # Screenshot
 
-<img src="https://i.imgur.com/wKFx9yP.png>
-<img src="https://i.imgur.com/UFGW62c.png>
-<img src="https://i.imgur.com/zMCXBGJ.png>
-<img src="https://i.imgur.com/blF1cMu.png>
+img src="https://i.imgur.com/wKFx9yP.png
+img src="https://i.imgur.com/UFGW62c.png
+img src="https://i.imgur.com/zMCXBGJ.png
+img src="https://i.imgur.com/blF1cMu.png
 
 
 # Technologies Used
