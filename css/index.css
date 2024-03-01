@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#title{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: #bf7341;
+    line-height: 5;
+}
+
+#instructions{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color: #58282d;
+    background-color: #cdb1ad;
+
+    line-height: 1.3;
+}
+
+
+#showcase{
+    background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3JtMjE4LW15bnQtMDYuanBn.jpg");
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+#showcase .button{
+    font-size: 30px;
+    text-decoration: none;
+    color: #bf7341;
+    border: rgb(47, 30, 228) 3px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+
+#showcase .button:hover{
+    background: #bf7341;
+    color:rgb(0, 0, 0)
+}

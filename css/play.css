@@ -24,8 +24,9 @@ body {
     /* height: 410px; */
     background: white;
     display: flex;
+    flex-direction: column;
     gap: 70px;
-    align-items: flex-end;
+    align-items: center;
     padding: 60px 40px;
     border-radius: 10px;
 }
