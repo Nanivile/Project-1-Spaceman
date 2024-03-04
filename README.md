@@ -10,6 +10,7 @@
 
 # Screenshot
 
+![Spaceman game](https://i.imgur.com/yjNIvfm.jpeg)
 ![Spaceman game](https://i.imgur.com/UFGW62c.png)
 ![spaceman lose](https://i.imgur.com/zMCXBGJ.png)
 ![Spaceman win](https://i.imgur.com/blF1cMu.png)
